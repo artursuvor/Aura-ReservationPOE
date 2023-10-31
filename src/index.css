@@ -1,0 +1,87 @@
+body {
+  margin: 0 auto;
+  font-family: Inter, sans-serif;
+  background-color: #0F0F0F;
+  width: 1440px;
+  font-family: "Fontin-SmallCaps", Verdana, Arial, Helvetica, sans-serif;
+}
+
+.Navbar {
+  color: #DFCF99;
+  font-family: "Fontin-Regular",Verdana,Arial,Helvetica,sans-serif;
+}
+
+hr {
+  border-color: #6c6241;
+  margin-top: 10px;
+}
+
+.formula {
+  display: flex;
+  align-items: center;
+  background-color: #0F0F0F;
+  color: #F2C462;
+  font-family: "Fontin-Regular",Verdana,Arial,Helvetica,sans-serif;
+  width: 1200px;
+}
+
+input {
+  margin: 10px;
+  background-color: #231F1F;
+  color: #FFFFFF; /* Цвет текста */
+  border: 2px solid #333333; /* Цвет границы */
+  border-radius: 5px; /* Закругленные углы */
+  padding: 10px; /* Внутренний отступ */
+  font-size: 16px; /* Размер шрифта */
+}
+
+input::placeholder {
+  color: #999999; /* Цвет плейсхолдера */
+}
+
+input:focus {
+  outline: none; /* Убираем рамку при фокусе */
+  border-color: #DFCF99; /* Цвет границы при фокусе */
+  box-shadow: 0 0 5px #DFCF99; /* Тень при фокусе */
+}
+
+input[type="text"]
+{
+  font-size:13px;
+}
+
+.formula p {
+  margin: 10px;
+}
+
+.informationText{
+  padding: 20px;
+  background-color: #0F0F0F;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.normalText{
+  color: #A38D6D;
+}
+
+.blueText{
+  font-weight: 500;
+  color: #8888FF;
+}
+
+.informationText img{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0F0F0F;
+}
+
+footer a{
+  margin: 50px; 
+}
